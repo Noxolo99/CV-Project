@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile {
+    flex: 0 0 auto;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular form */
+}
+
+.content {
+    em {
+        font-style: italic;
+    }
+    
+    .heart {
+        color: red; /* Adjust color as needed */
+        font-size: 20px; /* Adjust size as needed */
+    }
+    
+    flex: 1;
+    margin-left: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc; /* Straight Horisontal line */
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.stars {
+    color: gold;
+}
